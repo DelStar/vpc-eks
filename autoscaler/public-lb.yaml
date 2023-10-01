@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+apiVersion: v1
+kind: Service
+metadata:
+  name: public-lb
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: web
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6af39786e633817d565affebeb4f2a391b74a70a108d0a4146a951d14fd7e47a
+size 250
+>>>>>>> e9b893851f3bd5de665870bf0f0f70a221bc1b14

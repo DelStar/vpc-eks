@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+   name: reader
+subjects:
+- kind: Group
+  name: reader
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: ClusterRole
+  name: reader
+  apiGroup: rbac.authorization.k8s.io
+    
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd07d01a7ac54fb04f97fede124cd02d018da3c8ed029f0ec2a09f192d903db2
+size 256
+>>>>>>> e9b893851f3bd5de665870bf0f0f70a221bc1b14

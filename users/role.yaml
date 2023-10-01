@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: reader
+rules:
+  - apiGroups: ["*"]
+    resources: ["deployments", "configmaps", "pods", "secrets", "services"]
+    verbs: ["get", "list", "watch"]
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb43854549ef0cc586a846dbc775acd10688ebcd52b25c8fe86e9ea236a3c02d
+size 223
+>>>>>>> e9b893851f3bd5de665870bf0f0f70a221bc1b14
