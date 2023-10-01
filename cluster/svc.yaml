@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: aws-test
+  namespace: default
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::411854276167:role/test-oidc
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:74532f8e8327db45278c82621383f13d74f4d7a17d64c983f6ade50790eb8ccd
+size 171
+>>>>>>> e9b893851f3bd5de665870bf0f0f70a221bc1b14

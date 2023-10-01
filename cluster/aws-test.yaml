@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aws-cli
+  namespace: default
+spec:
+  serviceAccountName: aws-test
+  containers:
+    - name: aws-cli
+      image: amazon/aws-cli
+      command: [ "/bin/bash", "-c", "--" ]
+      args: [ "while true; do sleep 30; done;" ]
+  tolerations:
+    - operator: Exists
+      effect: NoSchedule
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4725c89e8cb8723e2608dc4d187e2022318cb8907d3b53e3537b76e4f0fe1c33
+size 325
+>>>>>>> e9b893851f3bd5de665870bf0f0f70a221bc1b14
